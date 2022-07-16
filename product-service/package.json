@@ -19,6 +19,7 @@
     "@nestjs/common": "^5.7.4",
     "@nestjs/core": "^5.7.4",
     "aws-serverless-express": "^3.4.0",
+    "lodash.find": "^4.6.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.7",
@@ -30,11 +31,13 @@
     "@types/aws-lambda": "^8.10.101",
     "@types/express": "^4.17.13",
     "@types/jest": "^23.3.14",
+    "@types/lodash.find": "^4.6.7",
     "@types/node": "^10.17.60",
     "@types/supertest": "^2.0.12",
     "jest": "^23.6.0",
     "nodemon": "^2.0.19",
-    "serverless-offline": "^3.33.0",
+    "serverless": "^3.21.0",
+    "serverless-offline": "^8.8.1",
     "serverless-plugin-optimize": "^4.0.2-rc.1",
     "supertest": "^3.4.2",
     "ts-jest": "^23.10.5",
@@ -58,8 +61,8 @@
     "testEnvironment": "node"
   },
   "optionalDependencies": {
-    "eslint": "^8.19.0",
-    "@topindaworld/eslint-config": "^0.1.2"
+    "@topindaworld/eslint-config": "^0.1.2",
+    "eslint": "^8.19.0"
   },
   "eslintConfig": {
     "extends": [
@@ -69,6 +72,6 @@
       "no-undef": "off",
       "import/prefer-default-export": "off",
       "class-methods-use-this": "off"
+    }
   }
-}
 }
