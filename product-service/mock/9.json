@@ -1,0 +1,58 @@
+{
+  "bib_key": "ISBN:9781974705092",
+  "info_url": "https://openlibrary.org/books/OL29414880M/Kaguya-Sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL29414880M/Kaguya-Sama",
+  "details": {
+    "publishers": [
+      "Viz Media"
+    ],
+    "subtitle": "Love Is War, Vol. 9",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-25T15:11:12.182329"
+    },
+    "source_records": [
+      "bwb:9781974705092"
+    ],
+    "title": "Kaguya-Sama",
+    "number_of_pages": 240,
+    "isbn_13": [
+      "9781974705092"
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-25T15:11:12.182329"
+    },
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "full_title": "Kaguya-Sama Love Is War, Vol. 9",
+    "lc_classifications": [
+      "PN6790.J33A44513"
+    ],
+    "publish_date": "2019",
+    "key": "/books/OL29414880M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "latest_revision": 1,
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "subjects": [
+      "Literature"
+    ],
+    "revision": 1
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "bib_key": "ISBN:9781974700493",
+  "info_url": "https://openlibrary.org/books/OL26962589M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL26962589M/Kaguya-sama",
+  "details": {
+    "other_titles": [
+      "Love is war."
+    ],
+    "publishers": [
+      "Viz Media"
+    ],
+    "subtitle": "Love is war",
+    "description": {
+      "type": "/type/text",
+      "value": "Will Kaguya and Miyuki outsmart a psychological test designed to reveal their true feelings? Is spoon feeding each other cake the way to each other s hearts?  Also, Miyuki visits Kaguya s home for the first time, but she is too sick to enjoy it. Kaguya tries to befriend Miyuki s little sister, but Chika has beaten her to the punch."
+    },
+    "series": [
+      "Shonen Jump manga",
+      "Shonen Jump manga"
+    ],
+    "local_id": [
+      "urn:sfpl:31223126779710",
+      "urn:sfpl:31223126779785",
+      "urn:sfpl:31223126779769",
+      "urn:sfpl:31223126779744",
+      "urn:sfpl:31223126779694",
+      "urn:sfpl:31223126779728",
+      "urn:sfpl:31223126779751",
+      "urn:sfpl:31223126779777",
+      "urn:sfpl:31223126779702",
+      "urn:sfpl:31223126779736"
+    ],
+    "full_title": "Kaguya-sama Love is war",
+    "lc_classifications": [
+      "PN6790"
+    ],
+    "latest_revision": 3,
+    "key": "/books/OL26962589M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "publish_places": [
+      "San Francisco, CA"
+    ],
+    "contributions": [
+      "Roman, Annette",
+      "Dutro, Steve",
+      "VIZ Media"
+    ],
+    "subjects": [
+      "Translations into English",
+      "Graphic novels",
+      "High school students",
+      "Dating (Social customs)",
+      "Comic books, strips"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "200 p.",
+    "source_records": [
+      "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run06.mrc:163298945:4207",
+      "bwb:9781974700493"
+    ],
+    "title": "Kaguya-sama",
+    "work_titles": [
+      "Kaguya-sama wa kokurasetai, tensaitachi no ren'ai zuno sen"
+    ],
+    "notes": {
+      "type": "/type/text",
+      "value": "\"First published in Japan in 2015 by Shueisha Inc., Tokyo\"--Colophon.\n\nReads from right to left in the traditional Japanese format.\n\nYA Childrens Plus, Inc."
+    },
+    "number_of_pages": 200,
+    "isbn_13": [
+      "9781974700493"
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-24T09:04:23.201062"
+    },
+    "edition_name": "Shonen Jump manga edition.",
+    "dewey_decimal_class": [
+      "741.5"
+    ],
+    "subject_places": [
+      "Japan"
+    ],
+    "isbn_10": [
+      "1974700496"
+    ],
+    "publish_date": "2018",
+    "publish_country": "cau",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-11T19:27:45.224068"
+    },
+    "by_statement": "story and art by Aka Akasaka ; translation, Emi Louie-Nishikawa ; English adaptation, Annette Roman ; touch-up art & lettering, Stephen Dutro",
+    "works": [
+      {
+        "key": "/works/OL19749541W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 3
+  }
+}

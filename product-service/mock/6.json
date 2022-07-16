@@ -1,0 +1,68 @@
+{
+  "bib_key": "ISBN:9781974701384",
+  "info_url": "https://openlibrary.org/books/OL27333561M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL27333561M/Kaguya-sama",
+  "thumbnail_url": "https://covers.openlibrary.org/b/id/8798156-S.jpg",
+  "details": {
+    "publishers": [
+      "VIZ Media LLC"
+    ],
+    "identifiers": {
+      "amazon": [
+        "1974701387"
+      ]
+    },
+    "subtitle": "Love Is War, Vol. 6",
+    "covers": [
+      8798156
+    ],
+    "physical_format": "paperback",
+    "full_title": "Kaguya-sama Love Is War, Vol. 6",
+    "key": "/books/OL27333561M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "source_records": [
+      "amazon:1974701387",
+      "bwb:9781974701384"
+    ],
+    "title": "Kaguya-sama",
+    "notes": {
+      "type": "/type/text",
+      "value": "Source title: Kaguya-sama: Love Is War, Vol. 6 (6)"
+    },
+    "number_of_pages": 216,
+    "isbn_13": [
+      "9781974701384"
+    ],
+    "isbn_10": [
+      "1974701387"
+    ],
+    "publish_date": "Jan 01, 2019",
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "lc_classifications": [
+      "PN6790"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-04T03:16:21.645011"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-30T12:31:36.668344"
+    }
+  }
+}

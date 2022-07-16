@@ -1,0 +1,93 @@
+{
+  "bib_key": "ISBN:9781974700301",
+  "info_url": "https://openlibrary.org/books/OL26953613M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL26953613M/Kaguya-sama",
+  "details": {
+    "subtitle": "love is war",
+    "description": {
+      "type": "/type/text",
+      "value": "Two geniuses. Two brains. Two hearts. One battle. Who will confess their love first...?! Kaguya Shinomiya and Miyuki Shirogane are two geniuses who stand atop their prestigious academy's student council, making them the elite among elite. But it's lonely at the top and each has fallen for the other. There's just one huge problem standing in the way of lovey-dovey bliss--they're both too prideful to be the first to confess their romantic feelings and thus become the \"loser\" in the competition of love! And so begins their daily schemes to force the other to confess first!"
+    },
+    "isbn_10": [
+      "1974700305"
+    ],
+    "local_id": [
+      "urn:sfpl:31223129703865",
+      "urn:sfpl:31223129703873",
+      "urn:sfpl:31223129703956",
+      "urn:sfpl:31223129703881",
+      "urn:sfpl:31223129703899",
+      "urn:sfpl:31223129703907",
+      "urn:sfpl:31223129703915",
+      "urn:sfpl:31223129703923",
+      "urn:sfpl:31223129703931",
+      "urn:sfpl:31223129703949"
+    ],
+    "full_title": "Kaguya-sama love is war",
+    "lc_classifications": [
+      "PZ7.7.A33 Ka 2018 v.1",
+      "PN6790"
+    ],
+    "key": "/books/OL26953613M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "198 pages",
+    "source_records": [
+      "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run06.mrc:125206365:3990",
+      "bwb:9781974700301"
+    ],
+    "title": "Kaguya-sama",
+    "dewey_decimal_class": [
+      "741.5/952"
+    ],
+    "notes": {
+      "type": "/type/text",
+      "value": "Translated from the Japanese."
+    },
+    "number_of_pages": 198,
+    "isbn_13": [
+      "9781974700301"
+    ],
+    "edition_name": "Shonen Jump manga edition.",
+    "subjects": [
+      "Man-woman relationships",
+      "High school students",
+      "Comic books, strips",
+      "Fiction"
+    ],
+    "publish_date": "2018",
+    "publish_country": "cau",
+    "by_statement": "story and art by Aka Akasaka",
+    "oclc_numbers": [
+      "1027844565"
+    ],
+    "works": [
+      {
+        "key": "/works/OL19740538W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-24T06:14:17.252837"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-30T11:52:25.716664"
+    }
+  }
+}

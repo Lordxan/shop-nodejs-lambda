@@ -1,0 +1,58 @@
+{
+  "bib_key": "ISBN:9781974709571",
+  "info_url": "https://openlibrary.org/books/OL28058281M/Kaguya-Sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL28058281M/Kaguya-Sama",
+  "details": {
+    "publishers": [
+      "Viz Media"
+    ],
+    "subtitle": "Love Is War, Vol. 12",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-05-17T00:24:40.387669"
+    },
+    "source_records": [
+      "bwb:9781974709571"
+    ],
+    "title": "Kaguya-Sama",
+    "number_of_pages": 200,
+    "isbn_13": [
+      "9781974709571"
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-05-17T00:24:40.387669"
+    },
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "full_title": "Kaguya-Sama Love Is War, Vol. 12",
+    "lc_classifications": [
+      "PN6790"
+    ],
+    "publish_date": "2020",
+    "key": "/books/OL28058281M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "latest_revision": 1,
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "subjects": [
+      "Literature"
+    ],
+    "revision": 1
+  }
+}

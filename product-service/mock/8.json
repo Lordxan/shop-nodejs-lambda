@@ -1,0 +1,68 @@
+{
+  "bib_key": "ISBN:9781974704408",
+  "info_url": "https://openlibrary.org/books/OL27333943M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL27333943M/Kaguya-sama",
+  "thumbnail_url": "https://covers.openlibrary.org/b/id/8798592-S.jpg",
+  "details": {
+    "publishers": [
+      "VIZ Media LLC"
+    ],
+    "number_of_pages": 216,
+    "subtitle": "Love Is War, Vol. 8",
+    "covers": [
+      8798592
+    ],
+    "physical_format": "paperback",
+    "full_title": "Kaguya-sama Love Is War, Vol. 8",
+    "lc_classifications": [
+      ""
+    ],
+    "latest_revision": 3,
+    "key": "/books/OL27333943M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "source_records": [
+      "amazon:1974704408",
+      "bwb:9781974704408"
+    ],
+    "title": "Kaguya-sama",
+    "notes": {
+      "type": "/type/text",
+      "value": "Source title: Kaguya-sama: Love Is War, Vol. 8 (8)"
+    },
+    "identifiers": {
+      "amazon": [
+        "1974704408"
+      ]
+    },
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-04T03:57:11.026667"
+    },
+    "isbn_13": [
+      "9781974704408"
+    ],
+    "isbn_10": [
+      "1974704408"
+    ],
+    "publish_date": "May 07, 2019",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-11T22:58:40.652725"
+    },
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 3
+  }
+}

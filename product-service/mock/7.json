@@ -1,0 +1,68 @@
+{
+  "bib_key": "ISBN:9781974701391",
+  "info_url": "https://openlibrary.org/books/OL27333753M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL27333753M/Kaguya-sama",
+  "thumbnail_url": "https://covers.openlibrary.org/b/id/8798373-S.jpg",
+  "details": {
+    "publishers": [
+      "VIZ Media LLC"
+    ],
+    "identifiers": {
+      "amazon": [
+        "1974701395"
+      ]
+    },
+    "subtitle": "Love Is War, Vol. 7",
+    "covers": [
+      8798373
+    ],
+    "physical_format": "paperback",
+    "full_title": "Kaguya-sama Love Is War, Vol. 7",
+    "lc_classifications": [
+      "PN6790"
+    ],
+    "latest_revision": 3,
+    "key": "/books/OL27333753M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "source_records": [
+      "amazon:1974701395",
+      "bwb:9781974701391"
+    ],
+    "title": "Kaguya-sama",
+    "notes": {
+      "type": "/type/text",
+      "value": "Source title: Kaguya-sama: Love Is War, Vol. 7 (7)"
+    },
+    "number_of_pages": 216,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-10-04T03:37:16.201635"
+    },
+    "isbn_13": [
+      "9781974701391"
+    ],
+    "isbn_10": [
+      "1974701395"
+    ],
+    "publish_date": "Mar 05, 2019",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-11T21:07:52.019728"
+    },
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 3
+  }
+}

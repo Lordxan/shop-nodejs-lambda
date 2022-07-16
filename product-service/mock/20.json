@@ -1,0 +1,59 @@
+{
+  "bib_key": "ISBN:9781974724031",
+  "info_url": "https://openlibrary.org/books/OL34695831M/Kaguya-Sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL34695831M/Kaguya-Sama",
+  "details": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "isbn_13": [
+      "9781974724031"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "lc_classifications": [
+      "PN6790"
+    ],
+    "publish_date": "2021",
+    "publishers": [
+      "Viz Media"
+    ],
+    "source_records": [
+      "bwb:9781974724031"
+    ],
+    "subjects": [
+      "Literature"
+    ],
+    "title": "Kaguya-Sama",
+    "weight": "0.191",
+    "pagination": "208",
+    "subtitle": "Love Is War, Vol. 20",
+    "full_title": "Kaguya-Sama Love Is War, Vol. 20",
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "key": "/books/OL34695831M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-10-07T05:08:47.807884"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-10-07T05:08:47.807884"
+    }
+  }
+}

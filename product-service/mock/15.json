@@ -1,0 +1,63 @@
+{
+  "bib_key": "ISBN:9781974714735",
+  "info_url": "https://openlibrary.org/books/OL28323382M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL28323382M/Kaguya-sama",
+  "thumbnail_url": "https://covers.openlibrary.org/b/id/10252585-S.jpg",
+  "details": {
+    "publishers": [
+      "VIZ Media LLC"
+    ],
+    "subtitle": "Love Is War, Vol. 15",
+    "covers": [
+      10252585
+    ],
+    "physical_format": "paperback",
+    "full_title": "Kaguya-sama Love Is War, Vol. 15",
+    "lc_classifications": [
+      ""
+    ],
+    "latest_revision": 2,
+    "key": "/books/OL28323382M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "source_records": [
+      "amazon:197471473X",
+      "bwb:9781974714735"
+    ],
+    "title": "Kaguya-sama",
+    "notes": {
+      "type": "/type/text",
+      "value": "Source title: Kaguya-sama: Love Is War, Vol. 15 (15)"
+    },
+    "number_of_pages": 216,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-07-12T20:01:49.314951"
+    },
+    "isbn_13": [
+      "9781974714735"
+    ],
+    "isbn_10": [
+      "197471473X"
+    ],
+    "publish_date": "Jul 07, 2020",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-09-16T00:37:09.795423"
+    },
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 2
+  }
+}

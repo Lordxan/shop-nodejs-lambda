@@ -1,0 +1,117 @@
+{
+  "bib_key": "ISBN:9781974700509",
+  "info_url": "https://openlibrary.org/books/OL26975652M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL26975652M/Kaguya-sama",
+  "details": {
+    "other_titles": [
+      "Love is war."
+    ],
+    "publishers": [
+      "Viz Media"
+    ],
+    "subtitle": "love is war",
+    "description": {
+      "type": "/type/text",
+      "value": "Will Kaguya and Miyuki find a way to see each other sooner rather than later over summer vacation? And is tweeting really an effective way to communicate with your crush?"
+    },
+    "series": [
+      "Shonen Jump manga",
+      "Shonen Jump manga"
+    ],
+    "local_id": [
+      "urn:sfpl:31223127982917",
+      "urn:sfpl:31223127982982",
+      "urn:sfpl:31223127982966",
+      "urn:sfpl:31223127982941",
+      "urn:sfpl:31223127982891",
+      "urn:sfpl:31223127982925",
+      "urn:sfpl:31223127982958",
+      "urn:sfpl:31223127982974",
+      "urn:sfpl:31223127982909",
+      "urn:sfpl:31223127982933"
+    ],
+    "full_title": "Kaguya-sama love is war",
+    "subject_places": [
+      "Japan"
+    ],
+    "key": "/books/OL26975652M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "publish_places": [
+      "San Francisco, CA"
+    ],
+    "contributions": [
+      "Louie-Nishikawa, Emi",
+      "Roman, Annette",
+      "Dutro, Steve"
+    ],
+    "subjects": [
+      "Social media",
+      "Man-woman relationships",
+      "Student government",
+      "Graphic novels",
+      "High school students",
+      "Comic books, strips",
+      "Dating (Social customs)",
+      "Social interaction"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "196 p.",
+    "source_records": [
+      "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run06.mrc:198817985:3753",
+      "bwb:9781974700509"
+    ],
+    "title": "Kaguya-sama",
+    "work_titles": [
+      "Akasaka, Aka"
+    ],
+    "notes": {
+      "type": "/type/text",
+      "value": "\"First published in Japan in 2015 by SHUEISHA Inc., Tokyo.\"--Colophon.\n\nReads from right to left.\n\nYA Childrens Plus, Inc."
+    },
+    "number_of_pages": 196,
+    "isbn_13": [
+      "9781974700509"
+    ],
+    "edition_name": "Shonen Jump manga edition.",
+    "dewey_decimal_class": [
+      "741.5"
+    ],
+    "isbn_10": [
+      "197470050X"
+    ],
+    "publish_date": "2018",
+    "publish_country": "cau",
+    "by_statement": "Aka Akasaka ; [translation, Emi Louie-Nishikawa ; English adaptation, Annette Roman ; touch-up art and lettering, Stephen Dutro]",
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "lc_classifications": [
+      "PN6790"
+    ],
+    "latest_revision": 3,
+    "revision": 3,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-31T09:08:23.279840"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-30T10:34:35.024442"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "bib_key": "ISBN:9781974721009",
+  "info_url": "https://openlibrary.org/books/OL29937660M/Kaguya-Sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL29937660M/Kaguya-Sama",
+  "details": {
+    "publishers": [
+      "Viz Media"
+    ],
+    "subtitle": "Love Is War, Vol. 18",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-09-01T21:50:34.388223"
+    },
+    "source_records": [
+      "bwb:9781974721009"
+    ],
+    "title": "Kaguya-Sama",
+    "number_of_pages": 208,
+    "isbn_13": [
+      "9781974721009"
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-09-01T21:50:34.388223"
+    },
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "full_title": "Kaguya-Sama Love Is War, Vol. 18",
+    "lc_classifications": [
+      ""
+    ],
+    "publish_date": "2021",
+    "key": "/books/OL29937660M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "latest_revision": 1,
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 1
+  }
+}

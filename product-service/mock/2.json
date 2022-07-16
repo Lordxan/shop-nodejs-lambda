@@ -1,0 +1,93 @@
+{
+  "bib_key": "ISBN:9781974700318",
+  "info_url": "https://openlibrary.org/books/OL26953612M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL26953612M/Kaguya-sama",
+  "details": {
+    "other_titles": [
+      "Love is war."
+    ],
+    "subtitle": "Love is war",
+    "series": [
+      "Shonen Jump manga",
+      "Shonen Jump manga"
+    ],
+    "lc_classifications": [
+      "PN6790.J33 A39813 2018 v. 2",
+      "PN6790"
+    ],
+    "latest_revision": 2,
+    "key": "/books/OL26953612M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "contributions": [
+      "Louie-Nishikawa, Emi, translator",
+      "Roman, Annette, author"
+    ],
+    "lccn": [
+      "2018070718"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "pagination": "203 pages",
+    "source_records": [
+      "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run06.mrc:125202823:3542",
+      "bwb:9781974700318"
+    ],
+    "title": "Kaguya-sama",
+    "work_titles": [
+      "Kaguya-sama wa kokurasetai, tensaitachi no ren'ai zuno sen"
+    ],
+    "notes": {
+      "type": "/type/text",
+      "value": "Pages numbered from right to left.\n\nChiefly illustrations."
+    },
+    "number_of_pages": 203,
+    "isbn_13": [
+      "9781974700318"
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2019-05-24T06:14:16.060299"
+    },
+    "edition_name": "Shonen Jump manga edition.",
+    "dewey_decimal_class": [
+      "741.5/952"
+    ],
+    "local_id": [
+      "urn:sfpl:31223129747649",
+      "urn:sfpl:31223129747656",
+      "urn:sfpl:31223129747730",
+      "urn:sfpl:31223129747664",
+      "urn:sfpl:31223129747672",
+      "urn:sfpl:31223129747680",
+      "urn:sfpl:31223129747698",
+      "urn:sfpl:31223129747706",
+      "urn:sfpl:31223129747714",
+      "urn:sfpl:31223129747722"
+    ],
+    "publish_date": "2018",
+    "publish_country": "cau",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-10-11T17:20:27.235619"
+    },
+    "by_statement": "story & art by Aka Akasaka ; translation/Emi Louie-Nishikawa ; English adaptation/Annette Roman",
+    "works": [
+      {
+        "key": "/works/OL19740537W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 2
+  }
+}

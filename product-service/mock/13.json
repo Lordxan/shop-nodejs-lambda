@@ -1,0 +1,56 @@
+{
+  "bib_key": "ISBN:9781974710713",
+  "info_url": "https://openlibrary.org/books/OL29449559M/Kaguya-Sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL29449559M/Kaguya-Sama",
+  "details": {
+    "publishers": [
+      "Viz Media"
+    ],
+    "subtitle": "Love Is War, Vol. 13",
+    "source_records": [
+      "bwb:9781974710713"
+    ],
+    "title": "Kaguya-Sama",
+    "number_of_pages": 208,
+    "isbn_13": [
+      "9781974710713"
+    ],
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "full_title": "Kaguya-Sama Love Is War, Vol. 13",
+    "lc_classifications": [
+      "",
+      "PN6790.J33A44513"
+    ],
+    "publish_date": "2020",
+    "key": "/books/OL29449559M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "latest_revision": 2,
+    "revision": 2,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-25T23:58:07.017751"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-12-30T11:23:16.564277"
+    }
+  }
+}

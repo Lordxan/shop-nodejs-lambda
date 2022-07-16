@@ -1,0 +1,59 @@
+{
+  "bib_key": "ISBN:9781974722860",
+  "info_url": "https://openlibrary.org/books/OL32710098M/Kaguya-sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL32710098M/Kaguya-sama",
+  "thumbnail_url": "https://covers.openlibrary.org/b/id/11336657-S.jpg",
+  "details": {
+    "type": {
+      "key": "/type/edition"
+    },
+    "title": "Kaguya-sama",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "publish_date": "May 04, 2021",
+    "source_records": [
+      "amazon:1974722864"
+    ],
+    "number_of_pages": 208,
+    "publishers": [
+      "VIZ Media LLC"
+    ],
+    "isbn_10": [
+      "1974722864"
+    ],
+    "isbn_13": [
+      "9781974722860"
+    ],
+    "physical_format": "paperback",
+    "full_title": "Kaguya-sama Love Is War, Vol. 19",
+    "subtitle": "Love Is War, Vol. 19",
+    "notes": {
+      "type": "/type/text",
+      "value": "Source title: Kaguya-sama: Love Is War, Vol. 19 (19)"
+    },
+    "covers": [
+      11336657
+    ],
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "key": "/books/OL32710098M",
+    "latest_revision": 1,
+    "revision": 1,
+    "created": {
+      "type": "/type/datetime",
+      "value": "2021-07-01T17:19:57.952653"
+    },
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2021-07-01T17:19:57.952653"
+    }
+  }
+}

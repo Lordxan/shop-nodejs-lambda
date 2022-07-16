@@ -1,0 +1,55 @@
+{
+  "bib_key": "ISBN:9781974714728",
+  "info_url": "https://openlibrary.org/books/OL29471540M/Kaguya-Sama",
+  "preview": "noview",
+  "preview_url": "https://openlibrary.org/books/OL29471540M/Kaguya-Sama",
+  "details": {
+    "publishers": [
+      "Viz Media"
+    ],
+    "subtitle": "Love Is War, Vol. 14",
+    "last_modified": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T05:16:18.518253"
+    },
+    "source_records": [
+      "bwb:9781974714728"
+    ],
+    "title": "Kaguya-Sama",
+    "number_of_pages": 216,
+    "isbn_13": [
+      "9781974714728"
+    ],
+    "created": {
+      "type": "/type/datetime",
+      "value": "2020-08-26T05:16:18.518253"
+    },
+    "languages": [
+      {
+        "key": "/languages/eng"
+      }
+    ],
+    "full_title": "Kaguya-Sama Love Is War, Vol. 14",
+    "lc_classifications": [
+      ""
+    ],
+    "publish_date": "2020",
+    "key": "/books/OL29471540M",
+    "authors": [
+      {
+        "key": "/authors/OL7535119A",
+        "name": "Aka Akasaka"
+      }
+    ],
+    "latest_revision": 1,
+    "works": [
+      {
+        "key": "/works/OL19762647W"
+      }
+    ],
+    "type": {
+      "key": "/type/edition"
+    },
+    "revision": 1
+  }
+}
