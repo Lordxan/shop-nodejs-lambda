@@ -34,7 +34,6 @@
     "@types/supertest": "^2.0.12",
     "jest": "^23.6.0",
     "nodemon": "^2.0.19",
-    "prettier": "^2.7.1",
     "serverless-offline": "^3.33.0",
     "serverless-plugin-optimize": "^4.0.2-rc.1",
     "supertest": "^3.4.2",
@@ -57,5 +56,19 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.19.0",
+    "@topindaworld/eslint-config": "^0.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@topindaworld/eslint-config"
+    ],
+    "rules": {
+      "no-undef": "off",
+      "import/prefer-default-export": "off",
+      "class-methods-use-this": "off"
   }
+}
 }
