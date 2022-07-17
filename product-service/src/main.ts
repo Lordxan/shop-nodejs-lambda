@@ -4,6 +4,7 @@ import { createServer, proxy } from 'aws-serverless-express';
 import { eventContext } from 'aws-serverless-express/middleware';
 
 import { NestFactory } from '@nestjs/core';
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 
 // NOTE: If you get ERR_CONTENT_DECODING_FAILED in your browser, this is likely
@@ -27,11 +28,13 @@ async function bootstrapServer(): Promise<Server> {
     try {
       const expressApp = require('express')();
       const nestApp = await NestFactory.create(AppModule, expressApp);
+      const config = new DocumentBuilder().build();
+      const document = SwaggerModule.createDocument(nestApp as any, config, {});
+      SwaggerModule.setup('docs', nestApp as any, document);
       nestApp.use(eventContext());
       await nestApp.init();
       cachedServer = createServer(expressApp, undefined, binaryMimeTypes);
-    }
-    catch (error) {
+    } catch (error) {
       return Promise.reject(error);
     }
   }
@@ -41,4 +44,4 @@ async function bootstrapServer(): Promise<Server> {
 export const handler: Handler = async (event: any, context: Context) => {
   cachedServer = await bootstrapServer();
   return proxy(cachedServer, event, context, 'PROMISE').promise;
-}
+};

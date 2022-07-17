@@ -10,6 +10,7 @@ importers:
       '@hewmen/serverless-plugin-typescript': ^1.1.17
       '@nestjs/common': ^5.7.4
       '@nestjs/core': ^5.7.4
+      '@nestjs/swagger': ^2.5.1
       '@nestjs/testing': ^5.7.4
       '@topindaworld/eslint-config': ^0.1.2
       '@types/aws-lambda': ^8.10.101
@@ -39,6 +40,7 @@ importers:
     dependencies:
       '@nestjs/common': 5.7.4_rzwuw5ib3hjf6qwl6ncwhvhvxq
       '@nestjs/core': 5.7.4_wo2fwbjontsclzlj7jwgny453q
+      '@nestjs/swagger': 2.5.1_rzwuw5ib3hjf6qwl6ncwhvhvxq
       aws-serverless-express: 3.4.0
       lodash.find: 4.6.0
       reflect-metadata: 0.1.13
@@ -1588,6 +1590,22 @@ packages:
       uuid: 3.3.2
     transitivePeerDependencies:
       - encoding
+    dev: false
+
+  /@nestjs/swagger/2.5.1_rzwuw5ib3hjf6qwl6ncwhvhvxq:
+    resolution: {integrity: sha512-pixAD2+mOLOyvvFjkyRaPxNcFVygOBhCt1Jn2FO2QAYjuuxjaNckytMpJD+iMvLDCpb5eAbd7qjhJ6LiGhRLug==}
+    dependencies:
+      lodash: 4.17.21
+      path-to-regexp: 2.2.1
+      swagger-ui-express: 3.0.10
+    optionalDependencies:
+      '@nestjs/common': 5.7.4_rzwuw5ib3hjf6qwl6ncwhvhvxq
+      '@nestjs/core': 5.7.4_wo2fwbjontsclzlj7jwgny453q
+    transitivePeerDependencies:
+      - debug
+      - encoding
+      - reflect-metadata
+      - rxjs
     dev: false
 
   /@nestjs/testing/5.7.4_7uduuwdoadjs4u3rcewfxcmqrm:
@@ -9546,6 +9564,11 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /swagger-ui-express/3.0.10:
+    resolution: {integrity: sha512-vP0sHXTm8w0kwpy4z9tBe1sTOyIc807PvkBNrfBPMieeRrl3NbjUnz7KgOygkzmz4QBhd4fo3efFKcwR42vcjQ==}
+    engines: {node: '>= v0.10.32'}
+    dev: false
 
   /symbol-tree/3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
