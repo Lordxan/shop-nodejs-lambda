@@ -6,6 +6,7 @@ plugins:
 provider:
   name: aws
   runtime: nodejs14.x
+  region: eu-west-1
 
 functions:
   main:
