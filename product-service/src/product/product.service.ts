@@ -8,7 +8,7 @@ export class ProductService {
     return Products;
   }
 
-  findByQuery(query: any = {}) {
+  findByQuery(query?: any) {
     return find(Products, query);
   }
 }

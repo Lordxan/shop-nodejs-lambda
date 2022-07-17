@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, NotFoundException, Param } from '@nestjs/common';
 import { ProductService } from './product.service';
 
 @Controller()
@@ -11,7 +11,14 @@ export class ProductController {
   }
 
   @Get('/products/:productId')
-  getProductsById(@Param('productId') id) {
-    return this.productService.findByQuery({ details: { isbn_10: id } });
+  getProductsById(@Param('productId') id: string) {
+    const foundProduct = this.productService.findByQuery([
+      'details.isbn_13',
+      [id],
+    ]);
+    if (!foundProduct) {
+      throw new NotFoundException();
+    }
+    return foundProduct;
   }
 }
