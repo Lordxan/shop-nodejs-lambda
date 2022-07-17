@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import * as find from 'lodash.find';
+import find from 'lodash.find';
 import { Products } from '../../mock';
 
 @Injectable()
