@@ -15,6 +15,9 @@ async function bootstrap(): Promise<Handler> {
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);
+  app.enableCors({
+    origin: '*',
+  });
   await app.init();
   const expressApp = app.getHttpAdapter().getInstance();
   return serverlessExpress({ app: expressApp });
