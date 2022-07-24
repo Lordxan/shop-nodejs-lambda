@@ -2,10 +2,24 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client-js"
+    provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model product {
+    id          Int      @id @default(autoincrement()) //-  uuid (Primary key)
+    title       String //- text, not null
+    description String? //- text
+    price       Int //- integer
+    stocks      stocks[]
+}
+
+model stocks {
+    product    product @relation(fields: [product_id], references: [id])
+    product_id Int     @unique // - uuid (Foreign key from products.id)
+    count      Int // - integer (Total number of products in stock, can't be exceeded)
 }
