@@ -15,7 +15,7 @@ functions:
     environment:
       DATABASE_URL:
         Fn::GetAtt:
-          - MarketDB
+          - Database
           - Endpoint.Address
     events:
       - http:
