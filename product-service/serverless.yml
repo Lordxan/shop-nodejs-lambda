@@ -31,7 +31,7 @@ resources:
         DBInstanceIdentifier: ${self:service}-${self:provider.stage}
         DBInstanceClass: db.t3.micro
         Engine: postgres
-        AllocatedStorage: 1
-        MasterUsername: ${DATABASE_USERNAME}
-        MasterUserPassword: ${DATABASE_PASSWORD}
+        AllocatedStorage: 20
+        MasterUsername: ${env:DATABASE_USERNAME}
+        MasterUserPassword: ${env:DATABASE_PASSWORD}
         PubliclyAccessible: true
