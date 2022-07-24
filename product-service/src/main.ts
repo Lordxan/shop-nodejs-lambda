@@ -1,44 +1,33 @@
-import { Handler, Context } from 'aws-lambda';
-import { Server } from 'http';
-import { createServer, proxy } from 'aws-serverless-express';
-import { eventContext } from 'aws-serverless-express/middleware';
-
 import { NestFactory } from '@nestjs/core';
+import serverlessExpress from '@vendia/serverless-express';
+import { Callback, Context, Handler } from 'aws-lambda';
 import { AppModule } from './app.module';
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
-// NOTE: If you get ERR_CONTENT_DECODING_FAILED in your browser, this is likely
-// due to a compressed response (e.g. gzip) which has not been handled correctly
-// by aws-serverless-express and/or API Gateway. Add the necessary MIME types to
-// binaryMimeTypes below
-const binaryMimeTypes: string[] = [];
+let server: Handler;
 
-let cachedServer: Server;
-
-process.on('unhandledRejection', (reason) => {
-  console.error(reason);
-});
-
-process.on('uncaughtException', (reason) => {
-  console.error(reason);
-});
-
-async function bootstrapServer(): Promise<Server> {
-  if (!cachedServer) {
-    try {
-      const expressApp = require('express')();
-      const nestApp = await NestFactory.create(AppModule, expressApp);
-      nestApp.use(eventContext());
-      await nestApp.init();
-      cachedServer = createServer(expressApp, undefined, binaryMimeTypes);
-    }
-    catch (error) {
-      return Promise.reject(error);
-    }
-  }
-  return Promise.resolve(cachedServer);
+async function bootstrap(): Promise<Handler> {
+  const app = await NestFactory.create(AppModule);
+  const config = new DocumentBuilder()
+    .setTitle('Products service')
+    .setDescription('Products service API description')
+    .setVersion('0.0.1')
+    .build();
+  const document = SwaggerModule.createDocument(app, config);
+  SwaggerModule.setup('docs', app, document);
+  app.enableCors({
+    origin: '*',
+  });
+  await app.init();
+  const expressApp = app.getHttpAdapter().getInstance();
+  return serverlessExpress({ app: expressApp });
 }
 
-export const handler: Handler = async (event: any, context: Context) => {
-  cachedServer = await bootstrapServer();
-  return proxy(cachedServer, event, context, 'PROMISE').promise;
-}
+export const handler: Handler = async (
+  event: any,
+  context: Context,
+  callback: Callback,
+) => {
+  server = server ?? (await bootstrap());
+  return server(event, context, callback);
+};
