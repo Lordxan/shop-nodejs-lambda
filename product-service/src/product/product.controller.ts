@@ -42,6 +42,9 @@ export class ProductController {
       where: {
         id: Number(id),
       },
+      include: {
+        stocks: true,
+      },
     });
     if (!foundProduct) {
       throw new NotFoundException();
@@ -51,11 +54,7 @@ export class ProductController {
 
   @ApiResponse({
     status: 200,
-    description: 'Finds product',
-  })
-  @ApiResponse({
-    status: 404,
-    description: 'Product not found',
+    description: 'Product added',
   })
   @ApiBody({
     type: Product,
@@ -63,9 +62,16 @@ export class ProductController {
   @Post('/products')
   async postProduct(@Body() data: Product) {
     try {
-      return await this.prisma.product.create({
+      const product = await this.prisma.product.create({
         data,
       });
+      await this.prisma.stocks.create({
+        data: {
+          count: 1,
+          product_id: product.id,
+        },
+      });
+      return { result: 'done' };
     } catch (error) {
       throw new BadRequestException();
     }
