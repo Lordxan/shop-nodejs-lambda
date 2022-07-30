@@ -3,6 +3,12 @@ service: product-service
 plugins:
   - serverless-offline
 
+package:
+  include:
+    - './dist/*'
+  exclude:
+    - '**/**'
+
 provider:
   name: aws
   runtime: nodejs14.x
