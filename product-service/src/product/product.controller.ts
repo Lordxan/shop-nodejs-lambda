@@ -66,7 +66,7 @@ export class ProductController {
         data: {
           ...data,
           stocks: {
-            create: [{ count: 1 }],
+            create: { count: 1 },
           },
         },
       });

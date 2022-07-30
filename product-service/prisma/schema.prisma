@@ -16,10 +16,10 @@ model product {
     title       String //- text, not null
     description String? //- text
     price       Int //- integer
-    stocks      stocks[]
+    stocks      stock?
 }
 
-model stocks {
+model stock {
     product    product @relation(fields: [product_id], references: [id])
     product_id Int     @unique // - uuid (Foreign key from products.id)
     count      Int // - integer (Total number of products in stock, can't be exceeded)
