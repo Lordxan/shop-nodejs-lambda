@@ -62,16 +62,14 @@ export class ProductController {
   @Post('/products')
   async postProduct(@Body() data: Product) {
     try {
-      const product = await this.prisma.product.create({
-        data,
-      });
-      await this.prisma.stocks.create({
+      return await this.prisma.product.create({
         data: {
-          count: 1,
-          product_id: product.id,
+          ...data,
+          stocks: {
+            create: [{ count: 1 }],
+          },
         },
       });
-      return { result: 'done' };
     } catch (error) {
       throw new BadRequestException();
     }
