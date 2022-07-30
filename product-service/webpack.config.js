@@ -12,6 +12,10 @@ module.exports = (options, webpack) => {
 
   return {
     ...options,
+    output: {
+      ...options.output,
+      libraryTarget: 'commonjs2',
+    },
     externals: [],
     plugins: [
       ...options.plugins,
