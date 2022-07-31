@@ -12,7 +12,7 @@ datasource db {
 }
 
 model product {
-    id          Int      @id @default(autoincrement()) //-  uuid (Primary key)
+    id          String  @id @db.Uuid //-  uuid (Primary key)
     title       String //- text, not null
     description String? //- text
     price       Int //- integer
@@ -21,6 +21,6 @@ model product {
 
 model stock {
     product    product @relation(fields: [product_id], references: [id])
-    product_id Int     @unique // - uuid (Foreign key from products.id)
+    product_id String  @unique @db.Uuid // - uuid (Foreign key from products.id)
     count      Int // - integer (Total number of products in stock, can't be exceeded)
 }

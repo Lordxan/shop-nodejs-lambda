@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 import { product } from '@prisma/client';
 
 export class Product implements product {
-  id: number;
+  id: string;
   @ApiProperty()
   title: string;
   @ApiProperty({ required: false })

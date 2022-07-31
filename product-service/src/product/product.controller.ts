@@ -40,7 +40,7 @@ export class ProductController {
   async getProductsById(@Param('productId') id: string) {
     const foundProduct = await this.prisma.product.findFirst({
       where: {
-        id: Number(id),
+        id,
       },
       include: {
         stocks: true,
