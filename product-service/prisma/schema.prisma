@@ -1,0 +1,26 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider      = "prisma-client-js"
+    binaryTargets = ["rhel-openssl-1.0.x", "debian-openssl-1.1.x"]
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model product {
+    id          String  @id @db.Uuid //-  uuid (Primary key)
+    title       String //- text, not null
+    description String? //- text
+    price       Int //- integer
+    stocks      stock?
+}
+
+model stock {
+    product    product @relation(fields: [product_id], references: [id])
+    product_id String  @unique @db.Uuid // - uuid (Foreign key from products.id)
+    count      Int // - integer (Total number of products in stock, can't be exceeded)
+}
