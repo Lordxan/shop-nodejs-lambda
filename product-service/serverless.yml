@@ -19,10 +19,7 @@ functions:
   main:
     handler: dist/main.handler
     environment:
-      DATABASE_URL:
-        Fn::GetAtt:
-          - Database
-          - Endpoint.Address
+      DATABASE_URL: ${env:DATABASE_URL}
     events:
       - http:
           method: ANY

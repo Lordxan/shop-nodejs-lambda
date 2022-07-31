@@ -1,6 +1,9 @@
-/* eslint-disable */
+/* eslint-disable @typescript-eslint/no-var-requires */
 const CopyPlugin = require('copy-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const path = require('path');
 
+/** @returns {import('webpack').Configuration} */
 module.exports = (options, webpack) => {
   const lazyImports = [
     '@nestjs/microservices/microservices-module',
@@ -14,11 +17,13 @@ module.exports = (options, webpack) => {
     ...options,
     output: {
       ...options.output,
+      path: path.join(__dirname, './dist'),
       libraryTarget: 'commonjs2',
     },
     externals: [],
     plugins: [
       ...options.plugins,
+      new CleanWebpackPlugin(),
       new webpack.IgnorePlugin({
         checkResource(resource) {
           if (lazyImports.includes(resource)) {
@@ -32,7 +37,13 @@ module.exports = (options, webpack) => {
         },
       }),
       new CopyPlugin({
-        patterns: ['./prisma/schema.prisma', './.env'],
+        patterns: [
+          './prisma/schema.prisma',
+          {
+            from: 'node_modules/**/libquery_engine-rhel-openssl-*',
+            to: '[name][ext]',
+          },
+        ],
       }),
     ],
   };
